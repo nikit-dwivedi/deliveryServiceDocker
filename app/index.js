@@ -6,7 +6,7 @@ require('dotenv').config()
 const app = require('./app');
 
 process.env.TZ = 'Asia/Calcutta';
-const port = process.env.PORT || 4010;
+const port = process.env.APPID;
 const sPort= process.env.S_PORT 
 const IP = process.env.IP || '127.0.0.1';
 
